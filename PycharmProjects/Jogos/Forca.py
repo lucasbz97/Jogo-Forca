@@ -67,7 +67,7 @@ def marca_chute_correto(chute,letras_acertadas,ler_palavra_secreta):
         index += 1
 
 def imprime_mensagem_vencedor():
-    print("GANHOU, NA SORTE!")
+    print("GANHOU!")
     print("       ___________      ")
     print("      '._==_==_=_.'     ")
     print("      .-\\:      /-.    ")
@@ -80,7 +80,7 @@ def imprime_mensagem_vencedor():
     print("        '-------'       ")
 
 def imprime_mensagem_perdedor(palavra_secreta):
-    print("PERDEEEEUUUUU, você foi enforcado vacilão!")
+    print("PERDEU, você foi enforcado!")
     print("A palavra era {}".format(palavra_secreta))
     print("    _______________         ")
     print("   /               \       ")
